@@ -4,7 +4,7 @@ Description: "Creates a parameterized Launch Template, starts an EC2 instance, a
 Parameters:
   LaunchTemplateName:
     Type: "String"
-    Default: "aws-workshop-viteLaunchTemplate"  # Default must be a static string, cannot use Fn::Sub
+    Default: "aws-workshop-viteLaunchTemplate2"  # Default must be a static string, cannot use Fn::Sub
     Description: "Unique launch template name to prevent conflicts"
 
   SubnetId:
